@@ -1,0 +1,2 @@
+src file
+pwd 123456

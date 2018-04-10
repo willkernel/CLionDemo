@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\JniDemo.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\JniDemo.dir/objects.a @CMakeFiles\JniDemo.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\JniDemo.dir/objects.a -Wl,--no-whole-archive  -o JniDemo.exe -Wl,--out-implib,libJniDemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\JniDemo.dir\linklibs.rsp

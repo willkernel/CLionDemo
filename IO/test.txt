@@ -1,0 +1,6 @@
+IO 读写文件
+struct
+main
+int a;
+int b;
+return NULL

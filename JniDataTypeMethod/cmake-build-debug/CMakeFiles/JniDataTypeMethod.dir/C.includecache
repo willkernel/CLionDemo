@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CLion/JniDataTypeMethod/jni.h
+stdio.h
+-
+stdarg.h
+-
+jni_md.h
+E:/CLion/JniDataTypeMethod/jni_md.h
+
+E:/CLion/JniDataTypeMethod/jni_md.h
+
+E:/CLion/JniDataTypeMethod/main.c
+stdio.h
+-
+mem.h
+-
+jni.h
+E:/CLion/JniDataTypeMethod/jni.h
+
