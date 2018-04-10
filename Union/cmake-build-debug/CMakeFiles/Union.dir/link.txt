@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Union.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\Union.dir/objects.a @CMakeFiles\Union.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Union.dir/objects.a -Wl,--no-whole-archive  -o Union.exe -Wl,--out-implib,libUnion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Union.dir\linklibs.rsp

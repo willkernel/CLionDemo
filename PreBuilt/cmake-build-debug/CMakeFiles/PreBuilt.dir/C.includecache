@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CLion/PreBuilt/a.h
+b.h
+E:/CLion/PreBuilt/b.h
+
+E:/CLion/PreBuilt/b.h
+a.h
+E:/CLion/PreBuilt/a.h
+
+E:/CLion/PreBuilt/main.c
+stdio.h
+-
+a.h
+E:/CLion/PreBuilt/a.h
+text.txt
+E:/CLion/PreBuilt/text.txt
+
+E:/CLion/PreBuilt/text.txt
+
