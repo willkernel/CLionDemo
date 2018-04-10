@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\CharDemo.dir/objects.a
+D:\MinGW\bin\ar.exe cr CMakeFiles\CharDemo.dir/objects.a @CMakeFiles\CharDemo.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\CharDemo.dir/objects.a -Wl,--no-whole-archive  -o CharDemo.exe -Wl,--out-implib,libCharDemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CharDemo.dir\linklibs.rsp
